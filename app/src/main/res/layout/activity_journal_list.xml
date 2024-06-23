@@ -27,6 +27,7 @@
         android:backgroundTint="#61B881"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:backgroundTint="#61B881"
         app:srcCompat="@drawable/add"
         tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck" />
 
