@@ -47,10 +47,15 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.1.1"))
     //noinspection UseTomlInstead
     implementation("com.google.firebase:firebase-firestore")
+    //noinspection UseTomlInstead
     implementation("com.google.firebase:firebase-analytics")
+    //noinspection UseTomlInstead
     implementation("com.google.firebase:firebase-auth")
+    //noinspection UseTomlInstead
     implementation("com.google.firebase:firebase-storage")
+    //noinspection UseTomlInstead
     implementation("com.github.bumptech.glide:glide:4.16.0")
+    //noinspection GradleDependency,UseTomlInstead
     annotationProcessor ("com.github.bumptech.glide:compiler:4.14.2")
 
 }
