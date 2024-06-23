@@ -182,7 +182,8 @@ public class AddJournalActivity extends AppCompatActivity {
                                                 public void onSuccess(DocumentReference documentReference) {
                                                     progressBar.setVisibility(View.INVISIBLE);
 
-                                                    Intent i = new Intent(AddJournalActivity.this, JournalListActivity.class);
+                                                    Intent i = new Intent(AddJournalActivity.this
+                                                            , JournalListActivity.class);
 
                                                     startActivity(i);
                                                     finish();
